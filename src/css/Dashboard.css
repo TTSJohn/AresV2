@@ -1,0 +1,26 @@
+.dashboardBody{
+	background-color: #eeba30;
+}
+
+.circle{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    background-color: #d3a625;
+    border-radius: 50%;
+    display: inline-block;
+    background-image:linear-gradient(to right, transparent 50%, #d3a625 0);
+
+}
+.circle::before {
+  content: '';
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  border-radius: 0 100% 100% 0 / 50%;
+  background-color: inherit;
+  background: #ae0001;
+  transform-origin: left;
+  animation: spin 50s linear infinite,
+             bg 100s step-end infinite;
+}

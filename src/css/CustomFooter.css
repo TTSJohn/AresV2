@@ -1,0 +1,28 @@
+.style {
+    background-color: #ae0001;
+    border-top: 1px solid #E7E7E7;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    height: 85px;
+    width: 100%;
+    position:fixed;
+}
+
+.phantom {
+  display: block;
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+.footerText {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.custFoot{
+  margin-top: 150px;
+
+}

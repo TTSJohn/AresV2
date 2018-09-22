@@ -1,0 +1,29 @@
+.navbar-default .navbar-collapse {
+	background-color: #ae0001;
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	background-color: #ae0001;
+	color: white;
+}
+
+
+
+.nav .navbar-nav .navbar-right {
+
+}
+
+
+
+.navbar-default .navbar-form {
+	background-color: #ae0001;
+	} 
+
+.navbar-default .navbar-form  {
+	background-color: #ae0001;
+}
+
+.navbar > .container {
+  width: auto;
+}
